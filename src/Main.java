@@ -40,25 +40,25 @@ public class Main {
 		 * System.out.println("NUMBER= "+ number); System.out.printf("SALARY= %.2f\n",
 		 * salary);
 		 */
-//=======================================================================================
-		/*
-		 * int codPeca1, numPecas1, codPeca2, numPecas2 ; double valUnit1, valUnit2,
-		 * valTotal;
-		 * 
-		 * System.out.println("Entre com o código da primeira Peça:"); codPeca1 =
-		 * sc.nextInt(); System.out.println("Quantidade de Peças:"); numPecas1 =
-		 * sc.nextInt(); System.out.println("Valor da Unidade:"); valUnit1 =
-		 * sc.nextDouble();
-		 * 
-		 * System.out.println("Entre com o código da segunda Peça:"); codPeca2 =
-		 * sc.nextInt(); System.out.println("Quantidade de Peças:"); numPecas2 =
-		 * sc.nextInt(); System.out.println("Valor da Unidade:"); valUnit2 =
-		 * sc.nextDouble();
-		 * 
-		 * valTotal = (numPecas1 * valUnit1) + (numPecas2 * valUnit2);
-		 * 
-		 * System.out.printf("VALOR A PAGAR: R$ %.2f", valTotal);
-		 */
+
+		
+		 int codPeca1, numPecas1, codPeca2, numPecas2 ; double valUnit1, valUnit2,
+		 valTotal;
+		  
+		  System.out.println("Entre com o código da primeira Peça:"); codPeca1 =
+		  sc.nextInt(); System.out.println("Quantidade de Peças:"); numPecas1 =
+		  sc.nextInt(); System.out.println("Valor da Unidade:"); valUnit1 =
+		  sc.nextDouble();
+		  
+		  System.out.println("Entre com o código da segunda Peça:"); codPeca2 =
+		  sc.nextInt(); System.out.println("Quantidade de Peças:"); numPecas2 =
+		  sc.nextInt(); System.out.println("Valor da Unidade:"); valUnit2 =
+		  sc.nextDouble();
+		  
+		  valTotal = (numPecas1 * valUnit1) + (numPecas2 * valUnit2);
+		  
+		  System.out.printf("VALOR A PAGAR: R$ %.2f", valTotal);
+		 
 
 		// ===================================================================================
 
